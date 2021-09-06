@@ -1,6 +1,7 @@
 html, body{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
+  box-sizing: border-box;
 }
 
 p{
@@ -110,15 +111,19 @@ main {
 .sec-wyd {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  /* width: calc(100% - 35px); */
   width: 100%;
   margin-top: 50px;
-  padding: 15px 25px 0 10px;
+  /* padding: 15px 25px 0 10px; */
   background: #827aa1;
+  border-radius: 5px;
 }
 
 .list-conhecimentos {
   display: inline-block;
   width: 45%;
+  padding: 15px 15px;
   /* background: blue; */
 }
 
@@ -127,13 +132,15 @@ main {
 }
 
 .icon-conhecimento{
-  width: 80px;
+  width: 90px;
 }
 
 .art-conhecimentos {
   display: inline-block;
   text-align: justify;
   width: 45%;
+  padding: 15px 25px;
+  color: #FFC5AD;
 }
 
 .art-conhecimentos  ul {
