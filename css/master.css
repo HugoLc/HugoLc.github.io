@@ -1,3 +1,20 @@
+html, body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+p{
+  line-height: 1.3em;
+}
+
+ul{
+  padding: 1em 0;
+}
+
+li{
+  line-height: 1.3em;
+}
+
 header{
   position: relative;
   width: 100%;
@@ -64,33 +81,64 @@ main {
   display: flex;
   justify-content: space-between;
   /* background: green; */
-  height: 100px;
-  padding-top: 150px;
+  padding-top: 170px;
 }
 
 .art-ola {
   display: inline-block;
-  height: 100px;
   width: 50%;
   /* background: blue; */
+  color: #59536E;
+}
+
+.sec-apresentacao h3{
+  font-size: 2.5em;
+  padding-bottom: 0.2em;
+}
+
+.sec-apresentacao p{
+  text-align: justify;
 }
 
 .sec-apresentacao img{
-  width: 100px;
-  height: 100px;
   display: inline-block;
+  width: 200px;
+  height: 200px;
+
 }
 
 .sec-wyd {
-
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+  padding: 15px 25px 0 10px;
+  background: #827aa1;
 }
 
 .list-conhecimentos {
+  display: inline-block;
+  width: 45%;
+  /* background: blue; */
+}
 
+.list-conhecimentos ul li{
+  display: inline-block;
+}
+
+.icon-conhecimento{
+  width: 80px;
 }
 
 .art-conhecimentos {
+  display: inline-block;
+  text-align: justify;
+  width: 45%;
+}
 
+.art-conhecimentos  ul {
+  list-style-type: circle;
+  padding-left: 35px;
 }
 
 .sec-projetos {
