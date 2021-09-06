@@ -162,6 +162,10 @@ main {
 
 }
 
+.img-projetos{
+  width: 500px;
+}
+
 .social {
   display: none;
 }
