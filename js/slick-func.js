@@ -2,11 +2,13 @@
 export default function slickInit(){
   $(document).ready(function(){
     $('.projetos').slick({
+      arrows: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
       dots: true,
       infinite: true,
-      speed: 500,
-      fade: true,
-      cssEase: 'linear'
+      slidesToShow: 3,
+      slidesToScroll: 1
     });
   });
 }

@@ -1,3 +1,3 @@
-import * as slickFunc from './slick-func.js';
+import slickInit from './slick-func.js';
 
 slickInit();

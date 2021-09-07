@@ -159,11 +159,30 @@ main {
 }
 
 .projetos {
+  width: 100%;
+  /* background: green; */
+  margin-top: 40px;
 
 }
 
+.proj-link{
+  /* width: 10%;
+  height: 500px; */
+  /* background: pink; */
+  padding-right: 10px;
+}
+
 .img-projetos{
-  width: 500px;
+  /* width: 45%; */
+  width: 100%;
+  /* margin: auto; */
+}
+
+.slick-prev:before {
+  color: gray;
+}
+.slick-next:before {
+  color: gray;
 }
 
 .social {
