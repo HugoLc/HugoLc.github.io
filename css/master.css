@@ -73,7 +73,6 @@ header{
 
 main {
   width: 70%;
-  height: 500px;
   margin: auto;
   /* background: pink; */
 }
@@ -109,7 +108,7 @@ main {
 
 }
 
-.sec-wyd {
+.sec-wid {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -149,7 +148,6 @@ main {
 
 .sec-projetos {
   width: 100%;
-  height: 100px;
   margin-top: 40px;
   /* background: yellow; */
 }
@@ -169,7 +167,7 @@ main {
   /* width: 10%;
   height: 500px; */
   /* background: pink; */
-  padding-right: 10px;
+  padding: 0 5px;
 }
 
 .img-projetos{
@@ -183,6 +181,14 @@ main {
 }
 .slick-next:before {
   color: gray;
+}
+
+footer{
+  width: 100%;
+  height: 200px;
+  background: #827aa1;
+  border-radius: 60px 0 0 0;
+  margin-top: 60px;
 }
 
 .social {
