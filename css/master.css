@@ -191,6 +191,15 @@ footer{
   margin-top: 60px;
 }
 
+.footer-container{
+  width: 70%;
+  height: calc(100% - 25px);
+  background: green;
+  margin: auto;
+  padding: 25px 0 0 0;
+}
+
 .social {
-  display: none;
+  /* display: none; */
+
 }
