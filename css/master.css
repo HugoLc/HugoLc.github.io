@@ -247,40 +247,54 @@ footer{
 }
 
 .footer-container{
+  display: flex;
+  flex-direction: column;
   width: 70%;
-  height: calc(100% - 25px);
+  height: 100%;
   /* background: green; */
   margin: auto;
-  padding: 25px 0 0 0;
+
 }
 
 .contato {
-  /* display: none; */
-  /* padding: 0 5%; */
-}
-
-.contato h4{
-  color: var(--cor-lilas-texto);
-  /* font-weight: bold; */
-  font-size: 1.2rem;
-}
-
-.lista-contato{
-  display: inline-flex;
-  width: 100%;
-  justify-content: space-evenly;
-  font-size: 1.2em;
-}
-
-.li-contato a{
-  text-decoration: none;
-  color: var(--cor-salmao-texto);
   text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  padding: 25px 0 10px 0;
 }
 
-.li-contato a i{
-  display: block;
+.contato a,
+.social a{
+  text-decoration: none;
+}
+
+.contato a{
+  display: inline-block;
+
+  color: var(--cor-salmao-texto);
+  font-size: 1.2em;
+  padding: 5px 0;
+  transition: color 0.3s;
+}
+
+.contato a:hover{
+  color: var(--cor-lilas-texto)
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  /* background: orange; */
+  width: 50%;
+  margin: 0 auto;
+}
+
+.social a{
+
+}
+
+.social-icon{
   color: var(--cor-lilas-texto);
-  margin-bottom: 0.3em;
-  font-size: 1.5em;
+  font-size: 2em;
+  margin: 0.2em;
 }
