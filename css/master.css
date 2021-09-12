@@ -254,23 +254,33 @@ footer{
   padding: 25px 0 0 0;
 }
 
-.social {
+.contato {
   /* display: none; */
-
+  /* padding: 0 5%; */
 }
 
-.social h4{
+.contato h4{
   color: var(--cor-lilas-texto);
   /* font-weight: bold; */
   font-size: 1.2rem;
 }
 
-.li-social a{
-  text-decoration: none;
-  color: var(--cor-salmao-texto);
+.lista-contato{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 1.2em;
 }
 
-.li-social a i{
+.li-contato a{
+  text-decoration: none;
+  color: var(--cor-salmao-texto);
+  text-align: center;
+}
+
+.li-contato a i{
+  display: block;
   color: var(--cor-lilas-texto);
-  margin-right: 0.5em;
+  margin-bottom: 0.3em;
+  font-size: 1.5em;
 }

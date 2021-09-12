@@ -1,0 +1,4 @@
+- Efeito paralax na cidade
+- Editar imagem da cidade de sao paulo
+- Arrumar as imagens do portfolio
+- colocar sombras
