@@ -1,6 +1,13 @@
 
 :root{
   --bulb-distance : calc(8% + 130px);
+  --cor-salmao: salmon;
+  --cor-salmao-claro: #efa78b;
+  --cor-salmao-texto: #FFC5AD;
+  --cor-lilas: #827aa1;
+  --cor-lilas-escuro: #59536E;
+  --cor-lilas-texto: #4E4A61;
+
 }
 
 
@@ -26,10 +33,28 @@ header{
   position: relative;
   width: 100%;
   height: 300px;
-  background: rgb(239,167,139); /* #efa78b */
-  /* background: radial-gradient(circle farthest-corner at 90% 33%, rgba(239,167,139,1) 0%, rgba(130,122,161,1) 65%); */
-  background: radial-gradient(circle farthest-corner at var(--bulb-distance) 33%, rgba(239,167,139,1) 0%, rgba(130,122,161,1) 65%);
+  background: var(--cor-salmao-claro); /* #efa78b */
+  animation: glow 2s ease-in-out infinite alternate;
+  background-image: radial-gradient(circle farthest-corner at var(--bulb-distance) 33%,
+    rgba(239,167,139,1) 0%,
+    rgba(130,122,161,1) 25%
+  );
+  background-repeat: no-repeat;
   border-radius: 0 0 60px 0;
+
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    background-size: 100%;
+    background-position-x: left;
+  }
+
+  to {
+    background-size: 130%;
+    background-position-x: 7%;
+  }
 }
 
 .bulb{
@@ -49,7 +74,7 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 100px;
-  color: salmon;
+  color: var(--cor-salmao);
 
 }
 
@@ -63,6 +88,7 @@ header{
   top: calc(300px - 133px);
   left: 8%;
   font-family: 'Quicksand', sans-serif;
+  z-index: 10;
 }
 
 .foto-perfil {
@@ -90,6 +116,16 @@ header{
   color: rgba(130,122,161,1);
 }
 
+.skyline{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45%;
+  z-index: 0;
+  border-radius: 0 0 60px 0;
+  opacity: 0.6;
+}
+
 main {
   width: 70%;
   margin: auto;
@@ -108,7 +144,7 @@ main {
   display: inline-block;
   width: 50%;
   /* background: blue; */
-  color: #59536E;
+  color: var(--cor-lilas-escuro);
 }
 
 .sec-apresentacao h3{
@@ -133,7 +169,7 @@ main {
   align-items: center;
   width: 100%;
   margin-top: 40px;
-  background: #827aa1;
+  background: var(--cor-lilas);
   border-radius: 5px;
 }
 
@@ -157,7 +193,7 @@ main {
   text-align: justify;
   width: 45%;
   padding: 25px 25px;
-  color: #FFC5AD;
+  color: var(--cor-salmao-texto);
 }
 
 .art-conhecimentos  ul {
@@ -172,7 +208,7 @@ main {
 }
 .sec-projetos h3{
   font-size: 30px;
-  color: #59536E;
+  color: var(--cor-lilas-escuro);
 }
 
 .projetos {
@@ -205,7 +241,7 @@ main {
 footer{
   width: 100%;
   height: 200px;
-  background: #827aa1;
+  background: var(--cor-lilas);
   border-radius: 60px 0 0 0;
   margin-top: 60px;
 }
@@ -224,17 +260,17 @@ footer{
 }
 
 .social h4{
-  color: #4E4A61;
+  color: var(--cor-lilas-texto);
   /* font-weight: bold; */
   font-size: 1.2rem;
 }
 
 .li-social a{
   text-decoration: none;
-  color: #FFC5AD;
+  color: var(--cor-salmao-texto);
 }
 
 .li-social a i{
-  color: #4E4A61;
+  color: var(--cor-lilas-texto);
   margin-right: 0.5em;
 }
