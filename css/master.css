@@ -1,6 +1,7 @@
 
 :root{
   --bulb-distance : calc(8% + 130px);
+
   --cor-salmao: salmon;
   --cor-salmao-claro: #efa78b;
   --cor-salmao-texto: #FFC5AD;
@@ -8,6 +9,7 @@
   --cor-lilas-escuro: #59536E;
   --cor-lilas-texto: #4E4A61;
 
+  --shadow: 3px 6px 5px rgb(150 150 150 / 40%);
 }
 
 
@@ -100,9 +102,6 @@ header{
 
 }
 
-.tit-principal{
-
-}
 
 .tit-principal h1{
   font-size: 40px;
@@ -160,7 +159,8 @@ main {
   display: inline-block;
   width: 400px;
   height: 200px;
-
+  border-radius: 5px;
+  box-shadow: var(--shadow);
 }
 
 .sec-wid {
@@ -171,6 +171,7 @@ main {
   margin-top: 40px;
   background: var(--cor-lilas);
   border-radius: 5px;
+  box-shadow: var(--shadow);
 }
 
 .list-conhecimentos {
