@@ -115,13 +115,24 @@ header{
   color: rgba(130,122,161,1);
 }
 
-.skyline{
+.city-container{
+  overflow: hidden;
+  /* background: green; */
   position: absolute;
   bottom: 0;
   right: 0;
+  height: 50%;
   width: 45%;
+
   z-index: 0;
   border-radius: 0 0 60px 0;
+}
+
+.skyline{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   opacity: 0.6;
 }
 
