@@ -1,9 +1,17 @@
-- Efeito paralax na cidade
 - Editar imagem da cidade de sao paulo
 X Arrumar as imagens do portfolio
 X colocar sombras
 X organizar footer
-- Criar função para info nos projetos
-- Editar textos
+
+
+
+JS
 - Criar apagar luz
+- Criar função para info nos projetos
+
+HTML
+- Editar textos
+
+CSS
 - Responsividade
+- Efeito paralax na cidade
