@@ -269,7 +269,7 @@ footer{
 }
 
 .contato a{
-  display: inline-block;
+  display: block;
 
   color: var(--cor-salmao-texto);
   font-size: 1.2em;
