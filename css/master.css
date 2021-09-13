@@ -259,6 +259,8 @@ footer{
 }
 
 .contato {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: 0 auto;
   width: 50%;
@@ -271,8 +273,7 @@ footer{
 }
 
 .contato a{
-  display: block;
-
+  display: inline-block;
   color: var(--cor-salmao-texto);
   font-size: 1.2em;
   padding: 5px 0;

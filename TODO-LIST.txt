@@ -3,3 +3,7 @@
 X Arrumar as imagens do portfolio
 X colocar sombras
 X organizar footer
+- Criar função para info nos projetos
+- Editar textos
+- Criar apagar luz
+- Responsividade
