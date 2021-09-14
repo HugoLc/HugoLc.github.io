@@ -1,7 +1,8 @@
-- Editar imagem da cidade de sao paulo
+X Editar imagem da cidade de sao paulo
 X Arrumar as imagens do portfolio
 X colocar sombras
 X organizar footer
+
 
 
 
@@ -11,10 +12,12 @@ JS
 
 HTML
 - Editar textos
+- Criar menu
 
 CSS
 - Responsividade
 X Efeito paralax na cidade
+- Max-width do meu nome
 
 
 4e4a61ff escuro
