@@ -14,4 +14,4 @@ HTML
 
 CSS
 - Responsividade
-- Efeito paralax na cidade
+X Efeito paralax na cidade
