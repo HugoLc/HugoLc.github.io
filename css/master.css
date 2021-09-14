@@ -54,8 +54,8 @@ header{
   }
 
   to {
-    background-size: 130%;
-    background-position-x: 7%;
+    background-size: 150%;
+    background-position-x: 10%;
   }
 }
 
@@ -121,7 +121,7 @@ header{
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 50%;
+  height: 100%;
   width: 45%;
 
   z-index: 0;
@@ -133,7 +133,7 @@ header{
   bottom: 0;
   left: 0;
   width: 100%;
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
 main {

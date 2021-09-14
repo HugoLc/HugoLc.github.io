@@ -15,3 +15,7 @@ HTML
 CSS
 - Responsividade
 X Efeito paralax na cidade
+
+
+4e4a61ff escuro
+59536eff claro
