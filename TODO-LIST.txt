@@ -17,9 +17,8 @@ X Criar menu
 CSS
 - Responsividade media query 960
 X Efeito paralax na cidade
-- Max-width do meu nome <<<<<<<<<<<<<<<<<<<<<<<< usar media + translate
+X Max-width do meu nome
 
 
 4e4a61ff escuro
 59536eff claro
-1140px

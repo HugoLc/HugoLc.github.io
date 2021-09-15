@@ -60,7 +60,7 @@ header{
 
   to {
     background-size: 150%;
-    background-position-x: 10%;
+    background-position-x: 9%;
   }
 }
 
@@ -179,16 +179,21 @@ nav{
 .nav-item{
   padding: 5px 10px;
   background: var(--cor-lilas);
-  border-radius: 0 0 0 15px;
+  border-radius: 0 0 15px 15px;
   border-left: 1px solid var(--cor-lilas-escuro);
   /* border-bottom: 1px solid black; */
   color: var(--cor-salmao-texto);
   font-weight: lighter;
+  transition: background 0.5s;
 }
 
 .nav-item:last-child{
   border-radius: 0 0 15px 15px;
   border-right: 1px solid var(--cor-lilas-escuro);
+}
+
+.nav-item:hover{
+  background: var(--cor-lilas-texto);
 }
 
 main {
