@@ -12,13 +12,14 @@ JS
 
 HTML
 - Editar textos
-- Criar menu
+X Criar menu
 
 CSS
-- Responsividade
+- Responsividade media query 960
 X Efeito paralax na cidade
-- Max-width do meu nome
+- Max-width do meu nome <<<<<<<<<<<<<<<<<<<<<<<< usar media + translate
 
 
 4e4a61ff escuro
 59536eff claro
+1140px

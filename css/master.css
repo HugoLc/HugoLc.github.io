@@ -96,6 +96,13 @@ header{
   left: 8%;
   font-family: 'Quicksand', sans-serif;
   z-index: 10;
+  /* max-width: 45%; */
+}
+
+@media screen and (max-width: 1140px){
+  .principal{
+    max-width: 45%;
+  }
 }
 
 .foto-perfil {
@@ -107,17 +114,32 @@ header{
 
 }
 
+.tit-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 180px;
+  /* background: red; */
+}
+
 
 .tit-principal h1{
+  /* position: absolute; */
+  bottom: 0;
   font-size: 40px;
-  padding: 10px;
   color: white;
+
+}
+
+.h1-container,
+.h2-container{
+  /* background-color: blue; */
+  margin: 10px
 }
 
 .tit-principal h2{
   font-size: 35px;
-  padding: 10px;
-  color: rgba(130,122,161,1);
+  color: var(--cor-lilas);
 }
 
 .city-container{
