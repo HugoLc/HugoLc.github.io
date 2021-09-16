@@ -26,6 +26,7 @@ a{
 
 p{
   line-height: 1.3em;
+  margin: 1em 0;
 }
 
 ul{
@@ -225,6 +226,7 @@ main {
 .sec-apresentacao p{
   text-align: justify;
   padding-right: 10px;
+  margin: 0;
 }
 
 .sec-apresentacao img{
@@ -259,6 +261,13 @@ main {
 
 .icon-conhecimento{
   width: 96px;
+  height: 96px;
+}
+
+.icon-flask{
+  height: 90px;
+  width: 90px;
+  padding: 3px;
 }
 
 .art-conhecimentos {
