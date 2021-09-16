@@ -53,7 +53,7 @@ header{
 }
 
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     background-size: 100%;
     background-position-x: left;
@@ -85,8 +85,6 @@ header{
   color: var(--cor-salmao);
 
 }
-
-
 
 .principal{
   display: flex;
@@ -178,7 +176,7 @@ nav{
 }
 
 .nav-item{
-  padding: 5px 10px;
+  padding: 5px 13px;
   background: var(--cor-lilas);
   border-radius: 0 0 15px 15px;
   border-left: 1px solid var(--cor-lilas-escuro);
@@ -203,6 +201,9 @@ main {
   /* background: pink; */
 }
 
+/* ----- Sessão de apresentação ----- */
+/* ---------------------------------- */
+
 .sec-apresentacao {
   display: flex;
   justify-content: space-between;
@@ -223,9 +224,9 @@ main {
   padding-bottom: 0.2em;
 }
 
-.sec-apresentacao p{
+.art-ola p{
   text-align: justify;
-  padding-right: 10px;
+  padding-right: 15px;
   margin: 0;
 }
 
@@ -236,6 +237,9 @@ main {
   border-radius: 5px;
   box-shadow: var(--shadow);
 }
+
+/* ----- Sessão de conhecimentos ----- */
+/* ----------------------------------- */
 
 .sec-wid {
   display: flex;
@@ -250,7 +254,7 @@ main {
 
 .list-conhecimentos {
   display: inline-block;
-  width: 45%;
+  width: 35%;
   padding: 15px 15px;
   /* background: blue; */
 }
@@ -265,15 +269,15 @@ main {
 }
 
 .icon-flask{
-  height: 90px;
-  width: 90px;
-  padding: 3px;
+  height: 80px;
+  width: 80px;
+  padding: 5px;
 }
 
 .art-conhecimentos {
   display: inline-block;
   text-align: justify;
-  width: 45%;
+  width: 65%;
   padding: 25px 25px;
   color: var(--cor-salmao-texto);
 }
@@ -283,6 +287,9 @@ main {
   padding-left: 35px;
 }
 
+/* ----- Sessão de projetos ----- */
+/* ------------------------------ */
+
 .sec-projetos {
   width: 100%;
   margin-top: 40px;
@@ -290,6 +297,10 @@ main {
 }
 .sec-projetos h3{
   font-size: 30px;
+  color: var(--cor-lilas-escuro);
+}
+
+.sec-projetos p{
   color: var(--cor-lilas-escuro);
 }
 
