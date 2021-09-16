@@ -426,18 +426,62 @@ footer{
   .tit-principal h2 {
     bottom: 0;
     font-size: 30px;
-    color: var(--cor-lilas);
+  }
 
+  .tit-principal h1{
+    color: white;
   }
  
   main {
     width: 100%;
     /* background: pink; */
   }
+
   .sec-apresentacao {
     flex-direction: column;
     /* background: green; */
     padding-top: 270px;
   }
 
+  .art-ola {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .art-ola p {
+    padding-right: 0px;
+  }
+
+  .sec-apresentacao img {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .sec-wid {
+    flex-direction: column;
+  }
+
+  .list-conhecimentos {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .icon-conhecimento {
+    width: 46px;
+    height: 46px;
+  }
+
+  .icon-flask {
+    height: 36px;
+    width: 36px;
+    padding: 5px;
+  }
+
+  .art-conhecimentos {
+    width: 100%;
+    padding: 0;
+  }
 }
