@@ -11,11 +11,11 @@ JS
 - Criar função para info nos projetos
 
 HTML
-- Editar textos
+X Editar textos
 X Criar menu
 
 CSS
-- Responsividade media query 960
+- Responsividade media query 970
 X Efeito paralax na cidade
 X Max-width do meu nome
 

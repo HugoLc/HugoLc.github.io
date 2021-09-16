@@ -98,11 +98,6 @@ header{
   /* max-width: 45%; */
 }
 
-@media screen and (max-width: 1140px){
-  .principal{
-    max-width: 45%;
-  }
-}
 
 .foto-perfil {
 
@@ -173,6 +168,16 @@ nav{
   /* width: 100px; */
   height: 30px;
   border-bottom: 1px solid var(--cor-lilas-escuro);
+}
+
+@media screen and (max-width: 1140px) {
+  .principal {
+    max-width: 45%;
+  }
+
+  nav {
+    right: 5%;
+  }
 }
 
 .nav-item{
@@ -382,10 +387,6 @@ footer{
   /* background: orange; */
   width: 50%;
   margin: 0 auto;
-}
-
-.social a{
-
 }
 
 .social-icon{
