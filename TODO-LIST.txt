@@ -18,6 +18,7 @@ CSS
 - Responsividade media query 970
 X Efeito paralax na cidade
 X Max-width do meu nome
+- Testar neon na lampada
 
 
 4e4a61ff escuro

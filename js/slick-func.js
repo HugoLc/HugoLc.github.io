@@ -7,8 +7,17 @@ export default function slickInit(){
       autoplaySpeed: 3000,
       dots: true,
       infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      responsive: [
+      {
+        breakpoint: 970,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false
+        }
+      }]
     });
   });
 }

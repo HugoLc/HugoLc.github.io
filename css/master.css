@@ -4,7 +4,8 @@
 
   --cor-salmao: salmon;
   --cor-salmao-claro: #efa78b;
-  --cor-salmao-texto: #FFC5AD;
+  /* --cor-salmao-texto: #FFC5AD; */
+  --cor-salmao-texto: white;
   --cor-lilas: #827aa1;
   --cor-lilas-escuro: #59536E;
   --cor-lilas-texto: #4E4A61;
@@ -14,7 +15,7 @@
 
 
 html, body{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro',  sans-serif;
   font-size: 20px;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -128,7 +129,7 @@ header{
 .h1-container,
 .h2-container{
   /* background-color: blue; */
-  margin: 10px
+  padding: 10px
 }
 
 .tit-principal h2{
@@ -421,7 +422,6 @@ footer{
   }
 
   .tit-principal{
-    background-color: #4E4A61;
     width: 100%;
     height: 100px;
     text-align: center;
@@ -431,6 +431,10 @@ footer{
   .tit-principal h2 {
     bottom: 0;
     font-size: 30px;
+  }
+
+  .h1-container{
+    background: var(--cor-lilas);
   }
 
   .tit-principal h1{
@@ -450,9 +454,9 @@ footer{
 
   .art-ola {
     display: block;
-    width: 100%;
+    width: 90%;
     padding: 0;
-    margin: 0;
+    margin-bottom: 20px;
   }
 
   .art-ola p {
@@ -462,10 +466,13 @@ footer{
   .sec-apresentacao img {
     display: inline-block;
     width: 100%;
+    max-width: 400px;
   }
 
   .sec-wid {
     flex-direction: column;
+    width: 98%;
+    margin: 40px auto;
   }
 
   .list-conhecimentos {
@@ -486,12 +493,17 @@ footer{
   }
 
   .art-conhecimentos {
-    width: 100%;
+    width: 92%;
     padding: 0;
   }
 
+  .sec-projetos h3,
+  .sec-projetos p {
+    padding-left: 2%;
+  }
+
   .projetos {
-    width: 80%;
+    width: 100%;
     /* background: green; */
     margin-top: 40px;
 
