@@ -2,13 +2,12 @@
 :root{
   --bulb-distance : calc(8% + 130px);
 
-  --cor-salmao: salmon;
-  --cor-salmao-claro: #efa78b;
-  /* --cor-texto-sobre-lilas: #FFC5AD; */
+  --cor-luminosidade: cyan /* #D3ED9D */; /* --cor-texto-sobre-lilas: #FFC5AD; */
   --cor-texto-sobre-lilas: white;
-  --cor-lilas: #827aa1;
-  --cor-lilas-escuro: #59536E;
+  --cor-lilas-claro: #6b628d;
+  --cor-lilas: #59536E;
   --cor-lilas-texto: #4E4A61;
+  --cor-lilas-darkest: rgb(53 49 74);
 
   --shadow: 3px 6px 5px rgb(150 150 150 / 40%);
 }
@@ -42,29 +41,11 @@ header{
   position: relative;
   width: 100%;
   height: 300px;
-  background: var(--cor-salmao-claro); /* #efa78b */
-  animation: glow 2s ease-in-out infinite alternate;
-  background-image: radial-gradient(circle farthest-corner at var(--bulb-distance) 33%,
-    rgba(239,167,139,1) 0%,
-    rgba(130,122,161,1) 25%
-  );
-  background-repeat: no-repeat;
+  background: var(--cor-lilas);
   border-radius: 0 0 60px 0;
 
 }
 
-
-@keyframes glow {
-  from {
-    background-size: 100%;
-    background-position-x: left;
-  }
-
-  to {
-    background-size: 150%;
-    background-position-x: 9%;
-  }
-}
 
 .bulb{
   position: absolute;
@@ -83,8 +64,30 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 100px;
-  color: var(--cor-salmao);
+  color: var(--cor-texto-sobre-lilas);  
+  animation: flicker 5s infinite alternate;
+}
 
+@keyframes flicker {
+  0%,
+  0.53%,
+  2%,
+  100% {
+    text-shadow: 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px var(--cor-luminosidade),
+    0 0 82px var(--cor-luminosidade),
+    0 0 92px var(--cor-luminosidade),
+    0 0 102px var(--cor-luminosidade),
+    0 0 151px var(--cor-luminosidade);
+  }
+
+  0.10%,
+  /* 0.24%, */
+  0.80% {
+    text-shadow: none;
+  }
 }
 
 .principal{
@@ -150,6 +153,11 @@ header{
   border-radius: 0 0 60px 0;
 }
 
+.city-container{
+  width: 50%;
+
+}
+
 .skyline{
   position: absolute;
   bottom: 0;
@@ -168,7 +176,7 @@ nav{
   border-radius: 0 0 15px 15px;
   /* width: 100px; */
   height: 30px;
-  border-bottom: 1px solid var(--cor-lilas-escuro);
+  border-bottom: 1px solid var(--cor-lilas-darkest);
 }
 
 @media screen and (max-width: 1140px) {
@@ -185,7 +193,7 @@ nav{
   padding: 5px 13px;
   background: var(--cor-lilas);
   border-radius: 0 0 15px 15px;
-  border-left: 1px solid var(--cor-lilas-escuro);
+  border-left: 1px solid var(--cor-lilas-darkest);
   /* border-bottom: 1px solid black; */
   color: var(--cor-texto-sobre-lilas);
   font-weight: lighter;
@@ -194,11 +202,11 @@ nav{
 
 .nav-item:last-child{
   border-radius: 0 0 15px 15px;
-  border-right: 1px solid var(--cor-lilas-escuro);
+  border-right: 1px solid var(--cor-lilas-darkest);
 }
 
 .nav-item:hover{
-  background: var(--cor-lilas-texto);
+  background: var(--cor-lilas-claro);
 }
 
 main {
@@ -222,7 +230,7 @@ main {
   display: inline-block;
   width: 50%;
   /* background: blue; */
-  color: var(--cor-lilas-escuro);
+  color: var(--cor-lilas);
 }
 
 .sec-apresentacao h3{
@@ -303,11 +311,11 @@ main {
 }
 .sec-projetos h3{
   font-size: 30px;
-  color: var(--cor-lilas-escuro);
+  color: var(--cor-lilas);
 }
 
 .sec-projetos p{
-  color: var(--cor-lilas-escuro);
+  color: var(--cor-lilas);
 }
 
 .projetos {
@@ -391,7 +399,7 @@ footer{
 }
 
 .social-icon{
-  color: var(--cor-lilas-texto);
+  color: var(--cor-lilas-darkest);
   font-size: 2em;
   margin: 0.2em;
 }
@@ -407,18 +415,20 @@ footer{
     border-radius: 0 0 60px 60px;
   }
   
-  nav,
-  .skyline{
+  nav{
     visibility: hidden;
   }
 
+  .principal,
+  .bulb{
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 100%;
+  }
+
   .principal {
-    flex-direction: column;
-     position: absolute;
-     left: 50%;
-     transform: translateX(-50%);
-     width: 100%;
-     max-width: 100%;
+    flex-direction: column;    
   }
 
   .tit-principal{
@@ -441,6 +451,10 @@ footer{
     color: white;
   }
  
+  .city-container{
+    width: 100%;
+    border-radius: 0 0 60px 60px;
+  }
   main {
     width: 100%;
     /* background: pink; */
@@ -456,7 +470,7 @@ footer{
     display: block;
     width: 90%;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .art-ola p {
