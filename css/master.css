@@ -4,8 +4,8 @@
 
   --cor-salmao: salmon;
   --cor-salmao-claro: #efa78b;
-  /* --cor-salmao-texto: #FFC5AD; */
-  --cor-salmao-texto: white;
+  /* --cor-texto-sobre-lilas: #FFC5AD; */
+  --cor-texto-sobre-lilas: white;
   --cor-lilas: #827aa1;
   --cor-lilas-escuro: #59536E;
   --cor-lilas-texto: #4E4A61;
@@ -187,7 +187,7 @@ nav{
   border-radius: 0 0 15px 15px;
   border-left: 1px solid var(--cor-lilas-escuro);
   /* border-bottom: 1px solid black; */
-  color: var(--cor-salmao-texto);
+  color: var(--cor-texto-sobre-lilas);
   font-weight: lighter;
   transition: background 0.5s;
 }
@@ -285,7 +285,7 @@ main {
   text-align: justify;
   width: 65%;
   padding: 25px 25px;
-  color: var(--cor-salmao-texto);
+  color: var(--cor-texto-sobre-lilas);
 }
 
 .art-conhecimentos  ul {
@@ -372,7 +372,7 @@ footer{
 
 .contato a{
   display: inline-block;
-  color: var(--cor-salmao-texto);
+  color: var(--cor-texto-sobre-lilas);
   font-size: 1.2em;
   padding: 5px 0;
   transition: color 0.3s;
