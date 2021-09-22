@@ -2,6 +2,7 @@ X Editar imagem da cidade de sao paulo
 X Arrumar as imagens do portfolio
 X colocar sombras
 X organizar footer
+- Adicionar card explicativo em todos os projetos
 
 
 teste
@@ -15,11 +16,18 @@ X Editar textos
 X Criar menu
 
 CSS
-- Responsividade media query 970
+X Responsividade media query 970
 X Efeito paralax na cidade
 X Max-width do meu nome
-- Testar neon na lampada
+X Testar neon na lampada
+X Mudar cor do contato no hover para lilás claro
+X Testar cor roxa na luminosidade
+- Primeira imagem em porcentagem
+- Aprender formas e aplicar no nav
+X Revisar flicker
 
+
+>>>>>>>>>>>RASCUNHO
 
 4e4a61ff escuro
 59536eff claro
