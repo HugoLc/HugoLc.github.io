@@ -210,6 +210,7 @@ nav {
 
 .nav-item:hover {
   background: var(--cor-lilas);
+  cursor: pointer;
 }
 
 
@@ -229,6 +230,7 @@ main {
   align-items: center;
   /* background: green; */
   padding-top: 170px;
+  z-index: -10;
 }
 
 .art-ola {
@@ -251,9 +253,6 @@ main {
 
 .sec-apresentacao img{
   display: inline-block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
   width: 40%;
 /*   height: 200px;
  */  border-radius: 5px;
