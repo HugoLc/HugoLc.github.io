@@ -224,6 +224,7 @@ main {
 
 .sec-apresentacao {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   /* background: green; */
@@ -250,10 +251,13 @@ main {
 
 .sec-apresentacao img{
   display: inline-block;
-  width: 400px;
-  height: 200px;
-  border-radius: 5px;
-  box-shadow: var(--shadow);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40%;
+/*   height: 200px;
+ */  border-radius: 5px;
+  /* box-shadow: var(--shadow); */
 }
 
 /* ----- Sessão de conhecimentos ----- */

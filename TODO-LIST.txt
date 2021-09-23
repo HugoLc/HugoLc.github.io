@@ -3,6 +3,7 @@ X Arrumar as imagens do portfolio
 X colocar sombras
 X organizar footer
 - Adicionar card explicativo em todos os projetos
+- Crop dev.jpg
 
 
 teste
@@ -32,53 +33,3 @@ X Revisar flicker
 4e4a61ff escuro
 59536eff claro
 #D3ED9D verdinho
-
-
-nav{
-  position: absolute;
-  display: flex;
-  bottom: 0px;
-  right: 10%;
-  transform: translateY(100%);
-  /* background: var(--cor-lilas); */
-  background-color: aqua;
-  border-radius: 0 0 15px 15px;
-  height: 30px;
-  border-bottom: 1px solid var(--cor-lilas-darkest);
-}
-
-.nav-wrapper{
-  background-color: blue;
-  height: 100%;
-  width: 100%;
-}
-
-@media screen and (max-width: 1140px) {
-  .principal {
-    max-width: 45%;
-  }
-
-  nav {
-    right: 5%;
-  }
-}
-
-.nav-item{
-  padding: 5px 13px;
-  background: var(--cor-lilas);
-  border-radius: 0 0 15px 15px;
-  border-left: 1px solid var(--cor-lilas-darkest);
-  /* border-bottom: 1px solid black; */
-  color: var(--cor-texto-sobre-lilas);
-  font-weight: lighter;
-  transition: background 0.5s;
-}
-
-.nav-item:last-child{
-  border-radius: 0 0 15px 15px;
-  border-right: 1px solid var(--cor-lilas-darkest);
-}
-
-.nav-item:hover{
-  background: var(--cor-lilas-claro);
-}
