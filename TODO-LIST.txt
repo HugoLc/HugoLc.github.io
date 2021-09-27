@@ -2,15 +2,15 @@ X Editar imagem da cidade de sao paulo
 X Arrumar as imagens do portfolio
 X colocar sombras
 X organizar footer
-- Adicionar card explicativo em todos os projetos
-- Crop dev.jpg
+X Adicionar card explicativo em todos os projetos
+X Crop dev.jpg
 
 
 teste
 
 JS
 - Criar apagar luz
-- Criar função para info nos projetos
+X Criar função para info nos projetos
 
 HTML
 X Editar textos
@@ -23,8 +23,8 @@ X Max-width do meu nome
 X Testar neon na lampada
 X Mudar cor do contato no hover para lilás claro
 X Testar cor roxa na luminosidade
-- Primeira imagem em porcentagem
-- Aprender formas e aplicar no nav
+X Primeira imagem em porcentagem
+X Aprender formas e aplicar no nav
 X Revisar flicker
 
 
